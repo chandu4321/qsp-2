@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <include name="FT"></include>
+			  
+		  </run>
+	  </groups>
+    <classes>
+      <class name="batchExecution.LaunchMayablline"/>
+      <class name="batchExecution.LaunchPurple"/>
+      <class name="batchExecution.LaunchSwiggy"/>
+      <class name="batchExecution.LaunchBookMyShow"/>
+      <class name="batchExecution.LaunchMeesho"/>
+      <class name="batchExecution.LaunchSkill"/>
+      <class name="batchExecution.LaunchSugar"/>
+      <class name="batchExecution.LaunchDemo"/>
+      <class name="batchExecution.LaunchPizza"/>
+      <class name="batchExecution.LaunchLakme"/>
+      <class name="batchExecution.LaunchZomato"/>
+      <class name="batchExecution.LaunchLoreal"/>
+      <class name="batchExecution.LaunchPuma"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
